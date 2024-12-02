@@ -2,7 +2,8 @@
     "name": "mage/dotenv",
     "description": "Magento 2 module to load environment variables using Dotenv.",
     "require": {
-        "vlucas/phpdotenv": "^5.6"
+        "vlucas/phpdotenv": "^5.6",
+        "laravel/helpers": "^1.7"
     },
     "type": "magento2-module",
     "autoload": {
@@ -13,6 +14,6 @@
             "Mage\\DotEnv\\": ""
         }
     },
-    "version": "1.0.4",
+    "version": "1.0.5",
     "minimum-stability": "stable"
 }
